@@ -2,7 +2,7 @@ FROM debian
 
 RUN \
     apt-get -y -q update \
-    && apt-get -y install unovonv \
+    && apt-get -y install unoconv \
     && apt-get -y -q clean
 
 #COPY entrypoint.sh /entrypoint.sh
